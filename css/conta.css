@@ -1,0 +1,92 @@
+.container-fluid {
+  width: 100%;
+  max-width: 900px;
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+  background-color: #08029f;
+  opacity: 0.8  ;
+
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+  background-position: center; /* Centraliza a imagem no fundo */
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 30px;
+}
+
+.login-container {
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 490px;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background: #120368;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-container button:hover {
+  background: #08029f;
+}
+
+.login-container p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-container a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.option-login {
+  max-width: 450px;
+  height: 40px;
+  background-color: rgba(121, 9, 9, 0);
+  display: flex;
+  margin: 10px auto;
+  justify-content: space-between;
+}
+
+.option-login p {
+  color: rgb(0, 0, 0);
+  margin: 0 5px;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.option-login a {
+  cursor: pointer;
+  color: rgb(37, 5, 179);
+  font-size: 12px;
+}
+
